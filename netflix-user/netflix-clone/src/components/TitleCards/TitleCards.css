@@ -1,0 +1,82 @@
+.title-cards {
+  margin: 20px 0;
+}
+
+.title-cards h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-list {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 0;
+  gap: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #111;
+}
+
+.card-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+.card-list::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.card {
+  position: relative;
+  min-width: 350px;
+  height: 200px;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  flex-shrink: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* background-position: center; */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.card:hover .card-details {
+  opacity: 1;
+}
+
+.card-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card-details p {
+  margin: 5px 0;
+  font-size: 12px;
+}

@@ -1,0 +1,91 @@
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    gap: 10px;
+    padding: 2em;
+    background-color: #141414;
+    border-radius: 20px;
+    width: 600px;
+    max-width: 400px;
+    color: #e5e5e5; 
+  }
+  
+  .form-heading {
+    text-align: center;
+    margin-bottom: 1.3em;
+    color: #e50914; 
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .form-field {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 10px;
+    padding: 0.6em;
+    margin-bottom: 10px;
+    background-color: #333; 
+    box-shadow: inset 2px 5px 10px rgb(50, 50, 50);
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #e5e5e5; 
+    padding-inline: 1em;
+    font-size: medium;
+  }
+  
+  .sendMessage-btn {
+    cursor: pointer;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #e50914; 
+    color: #fff; 
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sendMessage-btn:hover {
+    background-color: #b00610; 
+    color: #fff;
+    box-shadow: inset 2px 5px 10px rgba(229, 9, 20, 0.7);
+  }
+  
+  .form-card1 {
+    transition: all 0.3s;
+  }
+  
+  .form-card2 {
+    width: 100%;
+    transition: all 0.2s;
+  }
+  
+  .form-card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .spinner-grow {
+    color: #e50914; 
+  }
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px solid #444; 
+     background-color: transparent;
+    color: #e5e5e5;
+    margin-right: 10px;
+  }

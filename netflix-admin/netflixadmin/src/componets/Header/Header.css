@@ -1,0 +1,21 @@
+.custom-navbar {
+  background-color: #141414;
+  padding: 10px 20px;
+}
+
+.custom-brand img {
+  max-height: 30px;
+}
+
+.custom-nav-link {
+  color: #e5e5e5;
+  font-size: 1.1rem;
+}
+
+.custom-nav-link:hover {
+  color: #b3b3b3;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
